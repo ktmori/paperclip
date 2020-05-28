@@ -4,18 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Paperclip Bookkeeping</title>
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <meta
+      name="description"
+      content="Paperclip is a boutique bookkeeping service that provides your company with a dedicated accountant for personalized, on-on-one support."
+    />
+    <title>
+      Paperclip Bookkeeping | Expert Bookkeeping, World-Class Service
+    </title>
   </head>
   <body>
     <section id="navigation">
       <div class="nav-container">
         <div class="nav-content">
           <div class="nav-brand">
-            <img
-              id="wordmark"
-              src="/imgs/4x/wordmark.png"
-              alt="paperclip wordmark"
-            />
+            <a href="#hero"
+              ><img
+                id="wordmark"
+                src="/imgs/4x/wordmark.png"
+                alt="paperclip wordmark"
+            /></a>
           </div>
           <ul class="nav-links">
             <li class="nav-item"><a href="#how-it-works">How It Works</a></li>
@@ -40,7 +48,12 @@
             support.
           </p>
 
-          <form class="form-group" action="#">
+          <form
+            name="contact"
+            method="post"
+            class="form-group"
+            data-netlify="true"
+          >
             <input
               type="email"
               name="email"

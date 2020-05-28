@@ -16,6 +16,7 @@
   padding: 0;
   font-family: var(--content-font);
   font-weight: 300;
+  scroll-behavior: smooth;
 }
 
 /* ------ Utility Classes ------ */
@@ -150,6 +151,10 @@ a {
   background: white;
   top: 0;
   left: 0;
+}
+
+#navigation.scroll {
+  border-bottom: 1px solid var(--contrast);
 }
 
 .nav-container {

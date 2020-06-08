@@ -1,5 +1,3 @@
-console.log("connected!");
-
 //Grab Dom objects
 let navbar = document.querySelector("#navigation");
 

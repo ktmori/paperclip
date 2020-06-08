@@ -82,6 +82,7 @@ a {
   border-color: var(--bg-navy);
   border-radius: 5px;
   color: white;
+  border-width: 1px;
 }
 
 /* Container Classes */

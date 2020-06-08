@@ -21,7 +21,7 @@
             <a href="#hero"
               ><img
                 id="wordmark"
-                src="/imgs/wordmark.svg"
+                src="./imgs/wordmark.svg"
                 alt="paperclip wordmark"
             /></a>
           </div>
@@ -48,12 +48,7 @@
             support.
           </p>
 
-          <form
-            name="contact"
-            method="post"
-            class="form-group"
-            data-netlify="true"
-          >
+          <form name="contact" class="form-group" id="contact-form">
             <input
               type="email"
               name="email"
@@ -81,7 +76,7 @@
         <div class="benefit-wrapper">
           <div class="benefit-item">
             <div class="benefit-img">
-              <img src="/imgs/automation.svg" alt="" />
+              <img src="./imgs/automation.svg" alt="" />
             </div>
             <div class="benefit-title">Accurate Accounting</div>
             <div class="benefit-text">
@@ -91,7 +86,7 @@
           </div>
           <div class="benefit-item">
             <div class="benefit-img">
-              <img src="/imgs/support.svg" alt="" />
+              <img src="./imgs/support.svg" alt="" />
             </div>
             <div class="benefit-title">One-on-One Support</div>
             <div class="benefit-text">
@@ -101,7 +96,7 @@
           </div>
           <div class="benefit-item">
             <div class="benefit-img">
-              <img src="/imgs/speed.svg" alt="" />
+              <img src="./imgs/speed.svg" alt="" />
             </div>
             <div class="benefit-title">Fast Response Times</div>
             <div class="benefit-text">
@@ -121,7 +116,7 @@
               <h2>How our bookkeeping service works</h2>
             </div>
             <div class="content-item">
-              <img src="/imgs/how-it-works.svg" alt="" />
+              <img src="./imgs/how-it-works.svg" alt="" />
             </div>
           </div>
         </div>
@@ -194,7 +189,7 @@
           </div>
         </div>
         <div class="content-pane flex-column-center">
-          <img id="profile" src="/imgs/profile.jpg" alt="" />
+          <img id="profile" src="./imgs/profile.jpg" alt="" />
         </div>
       </div>
     </section>
@@ -214,6 +209,18 @@
         <small>2020 All Rights Reserved</small>
       </div>
     </section>
+
+    <section id="modal">
+      <div class="modal-card"></div>
+    </section>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-firestore.js"></script>
 
     <script src="main.js"></script>
   </body>
